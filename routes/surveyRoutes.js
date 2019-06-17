@@ -49,7 +49,8 @@ module.exports = app => {
                 }).exec();
             })
             .value();
-        /*  Legacy code for this ^
+        
+            /*  Legacy code for this ^
 
         const events = _.map(req.body, ({ email, url }) => {
             const pathname = new URL(url).pathname;
